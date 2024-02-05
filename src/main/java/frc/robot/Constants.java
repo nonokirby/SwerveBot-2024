@@ -1,6 +1,6 @@
 package frc.robot;
 
-import com.revrobotics.CANSparkMax.IdleMode;
+import com.revrobotics.CANSparkMax.*;
 import edu.wpi.first.math.geometry.Rotation2d;
 import edu.wpi.first.math.geometry.Translation2d;
 import edu.wpi.first.math.kinematics.SwerveDriveKinematics;
@@ -69,9 +69,7 @@ public final class Constants {
     public static final double maxSpeed = 4.5; // meters per second
     public static final double maxAngularVelocity = 11.5;
 
-    /* Neutral Modes */
-    public static final IdleMode angleNeutralMode = IdleMode.kBrake;
-    public static final IdleMode driveNeutralMode = IdleMode.kBrake;
+    
 
     /* Motor Inverts */
     public static final boolean driveInvert = false;
